@@ -1,40 +1,21 @@
-# Transformer from Scratch (PyTorch)
+# Transformer from Scratch
 
-This repository contains a **from-scratch implementation of the Transformer model**
-based on the paper **“Attention Is All You Need”**.
+PyTorch implementation of the Transformer architecture from "Attention Is All You Need" (Vaswani et al., 2017).
 
-The model is trained on the **English → Hindi** translation task using the
-**OPUS-100 (en-hi)** dataset.
-
----
-
-## Model Implementation Notes
-
-- `model.py` is **written in a simple and explicit manner**
-- Code prioritizes **readability and clarity over optimization**
-- Variable names and logic are kept easy to follow
-- Designed mainly for **study, learning, and understanding Transformers**
-
-This makes the project suitable for:
-- Students learning Transformers
-- Debugging and experimentation
-- Interview preparation
-
----
+Trained on English → Hindi translation using the OPUS-100 dataset. Code is written to be explicit and readable — prioritizes understanding over performance.
 
 ## Dataset
 
-- **OPUS-100** English–Hindi (`Helsinki-NLP/opus-100`)
-- Tokenizers are trained using **BPE**
-- Special tokens used:
-  - `[PAD]` – padding
-  - `[SOS]` – start of sequence
-  - `[EOS]` – end of sequence
-  - `[UNK]` – unknown token
+OPUS-100 English-Hindi (`Helsinki-NLP/opus-100`)
 
----
+- Tokenizer: BPE trained from scratch
+- Special tokens: `[PAD]` `[SOS]` `[EOS]` `[UNK]`
 
-## Installation
-
+## Setup
 ```bash
 pip install -r requirements.txt
+```
+
+## License
+
+MIT
