@@ -2,7 +2,7 @@
 
 PyTorch implementation of the Transformer architecture from "Attention Is All You Need" (Vaswani et al., 2017).
 
-Trained on English → Hindi translation using the OPUS-100 dataset. Code is written to be explicit and readable — prioritizes understanding over performance.
+Trained on English → Hindi translation using the OPUS-100 dataset. Code is written to be explicit and readable  prioritizes understanding over performance.
 
 ## Dataset
 
